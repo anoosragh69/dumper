@@ -29,13 +29,13 @@ jobs:
               touch .tg_token
               echo "${{ secrets.BOT }}" >> ".tg_token"
               touch .github_orgname
-              echo "AndroidDump" >> ".github_orgname"
+              echo "Mediatek-leaks" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
               touch .tg_chat
-              echo "@CarbonatedBlackLabs" >> ".tg_chat"
-              git config --global user.email "manofuranium@gmail.com"
-              git config --global user.name "ElytrA8"
+              echo "@minati_dumps" >> ".tg_chat"
+              git config --global user.email "sinha.aryan03@gmail.com"
+              git config --global user.name "TechyMinati"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
