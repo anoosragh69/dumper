@@ -35,7 +35,7 @@ jobs:
               touch .tg_chat
               echo "@minati_dumps" >> ".tg_chat"
               git config --global user.email "sinha.aryan03@gmail.com"
-              git config --global user.name "TechyMinati"
+              git config --global user.name "techyminati"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
