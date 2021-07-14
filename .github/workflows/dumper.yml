@@ -7,8 +7,8 @@ on:
         description: 'rom link'
         required: true
 
-env:
-  ROM_URL: ${{ github.event.inputs.rom_link }}
+
+
 jobs:
   dump:
     runs-on: ubuntu-20.04
@@ -29,14 +29,16 @@ jobs:
               touch .tg_token
               echo "${{ secrets.BOT }}" >> ".tg_token"
               touch .github_orgname
-              echo "MinatiScape" >> ".github_orgname"
+              echo "boxaltdumps" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
               touch .tg_chat
-              echo "@minati_dumps" >> ".tg_chat"
+              echo "@boxdumps" >> ".tg_chat"
               git config --global user.email "sinha.aryan03@gmail.com"
               git config --global user.name "techyminati"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
               sudo bash dumper.sh $ROM_URL
+env:
+  ROM_URL: hello.com
