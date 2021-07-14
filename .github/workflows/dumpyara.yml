@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.RJOMIXM/merlin_global_images_V12.0.1.0.RJOMIXM_20210520.0000.00_11.0_global_50acc97c41.tgz
+  ROM_URL: http://boxmirrorbomt.boxmirrorbomt.workers.dev/0:/lancelot_global_images_V12.0.1.0.RJCMIXM_20210609.0000.00_11.0_global_0b17afb77b.tgz
