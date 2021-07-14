@@ -32,6 +32,7 @@ jobs:
               echo "boxaltdumps" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
+              cat .github_token
               touch .tg_chat
               echo "@boxdumps" >> ".tg_chat"
               git config --global user.email "sinha.aryan03@gmail.com"
