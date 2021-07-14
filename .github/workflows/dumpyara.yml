@@ -1,13 +1,10 @@
-name: Dumping
+name: Dump
 
 on:
-  workflow_dispatch:
-    inputs:
-      rom_link:
-        description: 'rom link'
-        required: true
-
-
+  push:
+    paths-ignore:
+      - '*.md'
+    branches: [ main ]
 
 jobs:
   dump:
@@ -17,9 +14,15 @@ jobs:
        - name: Checkout
          uses: actions/checkout@master
        
-       - name: Clone Dumper Source Code
-         run: git clone https://github.com/DroidDumps/phoenix_firmware_dumper dumper
-       
+      - name: Clone Dumpyara
+        run: |
+              if [ -f "private.txt" ]
+              then
+                  git clone https://github.com/boxboi689/phoenix_firmware_dumper.git -b private
+              else
+                  git clone https://github.com/boxboi689/phoenix_firmware_dumper.git
+              fi
+
        - name: Setting up Dumper requirements
          run: |
               sudo chmod -R 777 dumper
@@ -35,8 +38,8 @@ jobs:
               cat .github_token
               touch .tg_chat
               echo "@boxdumps" >> ".tg_chat"
-              git config --global user.email "sinha.aryan03@gmail.com"
-              git config --global user.name "techyminati"
+              git config --global user.email "evanferrao@gmail.com"
+              git config --global user.name "Box In A Box"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
