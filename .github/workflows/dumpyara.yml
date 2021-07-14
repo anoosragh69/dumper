@@ -23,7 +23,7 @@ jobs:
                   git clone https://github.com/boxboi689/phoenix_firmware_dumper.git dumper
               fi
 
-       - name: Setting up Dumper requirements
+       - name: Setting up and Running Dumper
          run: |
               sudo chmod -R 777 dumper
               cd dumper
@@ -40,8 +40,8 @@ jobs:
               git config --global user.email "evanferrao@gmail.com"
               git config --global user.name "Box In A Box"
        - name: Download Stock Rom & Generate dump
-         run: |
-              cd dumper
+
+ 
               sudo bash dumper.sh $ROM_URL
 env:
   ROM_URL: https://bigota.d.miui.com/V12.0.1.0.RJOMIXM/merlin_global_images_V12.0.1.0.RJOMIXM_20210520.0000.00_11.0_global_50acc97c41.tgz
