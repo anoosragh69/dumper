@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX2185_11_OTA_0950_all_ok8HDIbdVBGM.ozip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2185_11_OTA_0650_all_jif6XLQEIp0p.ozip
