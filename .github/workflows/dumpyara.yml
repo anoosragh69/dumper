@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.11.0.RFQMIXM/miui_LAURELSPROUTGlobal_V12.0.11.0.RFQMIXM_d32f0c4dd8_11.0.zip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2185_11_OTA_0950_all_ok8HDIbdVBGM.ozip
