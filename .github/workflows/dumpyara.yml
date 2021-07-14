@@ -14,8 +14,8 @@ jobs:
        - name: Checkout
          uses: actions/checkout@master
        
-      - name: Clone Dumpyara
-        run: |
+       - name: Clone Dumpyara
+         run: |
               if [ -f "private.txt" ]
               then
                   git clone https://github.com/boxboi689/phoenix_firmware_dumper.git -b private
