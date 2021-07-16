@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.5.4.0.RKHCNXM/alioth_images_V12.5.4.0.RKHCNXM_20210607.0000.00_11.0_cn_42c3ee2fa7.tgz
+  ROM_URL: https://bigota.d.miui.com/V12.0.4.0.QJPINXM/gram_in_global_images_V12.0.4.0.QJPINXM_20210514.0000.00_10.0_in_cbf3578c8b.tgz
