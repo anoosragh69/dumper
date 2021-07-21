@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.RJOEUXM/merlin_eea_global_images_V12.0.1.0.RJOEUXM_20210615.0000.00_11.0_eea_e43ec8aa79.tgz
+  ROM_URL: https://mirrors.lolinet.com/firmware/moto/sofiap/official/RETAIL/SOFIAP_RETAIL_11_RPRS31.Q4U-20-35_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
