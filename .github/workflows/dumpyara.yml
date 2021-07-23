@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://boxmirrorbomt4.boxuserbomt.workers.dev/0:/OnePlus6Oxygen_22.Y.76_OTA_0760_all_2107130227_0263a33cf60f4185.zip
+  ROM_URL: https://bigota.d.miui.com/V12.5.2.0.RJOCNXM/merlin_images_V12.5.2.0.RJOCNXM_20210705.0000.00_11.0_cn_a825dd7c9a.tgz
