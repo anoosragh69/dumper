@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.17.0.QCDINXM/dandelion_in_global_images_V12.0.17.0.QCDINXM_20210711.0000.00_10.0_in_5cde96938d.tgz
+  ROM_URL: https://bigota.d.miui.com/V12.0.2.0.PEIMIXM/whyred_global_images_V12.0.2.0.PEIMIXM_20201224.0000.00_9.0_global_561698251e.tgz
