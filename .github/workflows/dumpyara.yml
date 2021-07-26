@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: http://boxmirrorbomt.boxmirrorbomt.workers.dev/0:/merlin_images_V12.5.2.0.RJOCNXM_20210705.0000.00_11.0_cn_a825dd7c9a.tgz
+  ROM_URL: http://boxmirrorbomt.boxmirrorbomt.workers.dev/0:/merlin_global_images_V12.0.1.0.RJOMIXM_20210520.0000.00_11.0_global_50acc97c41.tgz
