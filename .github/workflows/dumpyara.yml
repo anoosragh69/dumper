@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/9.9.3/whyred_images_9.9.3_20190904.0000.00_9.0_cn_eb9ab691c6.tgz
+  ROM_URL: https://bigota.d.miui.com/V12.0.8.0.QJOINXM/merlin_in_global_images_V12.0.8.0.QJOINXM_20210511.0000.00_10.0_in_9047d28ddf.tgz
