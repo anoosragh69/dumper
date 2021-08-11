@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: http://boxmirrorbomt.boxmirrorbomt1.workers.dev/0:/ProjectSakura-5.2-VANILLA-20210809-2351-merlin-UNOFFICIAL.zip
+  ROM_URL: https://ota-manual-in.allawnofs.com/ota/21/08/03/8a85e685-fa49-4919-b586-bc8f2ddaf4e6.ozip
