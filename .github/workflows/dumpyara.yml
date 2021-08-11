@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.RJORUXM/merlin_ru_global_images_V12.0.1.0.RJORUXM_20210609.0000.00_11.0_global_d65145c0a5.tgz
+  ROM_URL: http://boxmirrorbomt.boxmirrorbomt1.workers.dev/0:/ProjectSakura-5.2-VANILLA-20210809-2351-merlin-UNOFFICIAL.zip
