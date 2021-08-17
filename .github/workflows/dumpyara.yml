@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://mirrordump.mirrordump.workers.dev/0:/Redmi_Note_9_Engineering_Rom.zip
+  ROM_URL: https://sourceforge.net/projects/boxaltroms/files/mirror/Redmi_9_Engineering_Rom.zip/download
