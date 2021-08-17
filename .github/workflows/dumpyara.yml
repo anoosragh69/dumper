@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://sg.samsungcloud.ga/88034108a44e3267fbd5c2be45cac403
+  ROM_URL: https://bigota.d.miui.com/V12.0.8.0.QJQINXM/lime_in_global_images_V12.0.8.0.QJQINXM_20210602.0000.00_10.0_in_7f9e185e16.tgz
