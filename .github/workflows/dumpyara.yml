@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: http://bigota.d.miui.com/V10.2.2.0.MBECNXM/markw_images_V10.2.2.0.MBECNXM_20190419.0000.00_6.0_cn_7f78c16eca.tgz
+  ROM_URL: https://sg.samsungcloud.ga/88034108a44e3267fbd5c2be45cac403
