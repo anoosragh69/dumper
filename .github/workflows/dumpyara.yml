@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://nitesh696969.kushwaniteah.workers.dev/0://Havoc-OS-v4.8-20210813-RMX2020-Official-GApps.zip
+  ROM_URL: https://nitesh696969.kushwaniteah.workers.dev/0://Havoc-OS-v4.8-20210813-RMX2020-Official.zip
