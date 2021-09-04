@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.5.1.0.RJRINXM/shiva_in_global_images_V12.5.1.0.RJRINXM_20210808.0000.00_11.0_in_3b815d89a6.tgz
+  ROM_URL: https://nitesh696969.kushwaniteah.workers.dev/0://Havoc-OS-v4.8-20210813-RMX2020-Official-GApps.zip
