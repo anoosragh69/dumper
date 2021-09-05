@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.5.2.0.RGGEUXM/begonia_eea_global_images_V12.5.2.0.RGGEUXM_20210718.0000.00_11.0_eea_275d67715b.tgz
+  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/boxaltroms/mirror/Redmi_Note_9_Engineering_Rom.zip
