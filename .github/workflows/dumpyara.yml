@@ -38,7 +38,7 @@ jobs:
               touch .tg_chat
               echo "@boxdumps" >> ".tg_chat"
               git config --global user.email "carn4geisd3d@gmail.com"
-              git config --global user.name "boxboi689"
+              git config --global user.name "cArN4gEisDeD"
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
