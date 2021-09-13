@@ -32,11 +32,11 @@ jobs:
               touch .tg_token
               echo "${{ secrets.BOT }}" >> ".tg_token"
               touch .github_orgname
-              echo "boxaltdumps" >> ".github_orgname"
+              echo "cArN4gE-Dumps" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
               touch .tg_chat
-              echo "@boxdumps" >> ".tg_chat"
+              echo "@cArN4gEDumps" >> ".tg_chat"
               git config --global user.email "carn4geisd3d@gmail.com"
               git config --global user.name "cArN4gEisDeD"
               git config user.email
