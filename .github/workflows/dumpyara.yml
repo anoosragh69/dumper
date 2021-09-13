@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/boxaltroms/mirror/Redmi_Note_9_Engineering_Rom.zip
+  ROM_URL: https://bigota.d.miui.com/V10.2.21.0.OCLRUXM/miui_TIARERUGlobal_V10.2.21.0.OCLRUXM_76c42d2769_8.1.zip
