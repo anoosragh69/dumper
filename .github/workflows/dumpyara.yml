@@ -16,12 +16,7 @@ jobs:
        
        - name: Clone Dumpyara
          run: |
-              if [ -f "private.txt" ]
-              then
-                  git clone https://github.com/boxboi689/phoenix_firmware_dumper.git -b private dumper
-              else
                   git clone https://github.com/boxboi689/phoenix_firmware_dumper.git dumper
-              fi
 
        - name: Setting up and Running Dumper
          run: |
