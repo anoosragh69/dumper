@@ -16,7 +16,7 @@ jobs:
        
        - name: Clone Dumpyara
          run: |
-                  git clone https://github.com/boxboi689/phoenix_firmware_dumper.git dumper
+                  git clone https://github.com/cArN4gEisDeD/phoenix_firmware_dumper.git dumper
 
        - name: Setting up and Running Dumper
          run: |
