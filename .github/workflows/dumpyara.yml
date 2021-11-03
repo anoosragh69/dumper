@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://drive.google.com/uc?id=1C8b1oA8ag6ZWeLbL94FZpQJl_1RrhLUk
+  ROM_URL: https://true-mirror-69.gitsauraj.workers.dev/0:/RMX1941_11_A.10-HardbrickFix.zip
