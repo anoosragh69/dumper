@@ -42,4 +42,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://liquidtelecom.dl.sourceforge.net/project/realme-c2/RealmeUI/Ozip/RealmeC2C57.ozip
+  ROM_URL: https://drive.google.com/uc?id=1C8b1oA8ag6ZWeLbL94FZpQJl_1RrhLUk
