@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://fileload.coloros.com/503988RMX2189export_11_C.08_2021101814230000.zip
+  ROM_URL: https://master.dl.sourceforge.net/project/realme-c2/RealmeUI/Ozip/RealmeC2C47.ozip?viasf=1
