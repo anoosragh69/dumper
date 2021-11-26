@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://manshu.manshutyagi.workers.dev//OctaviOS-v3.1-whyred-20211120-0656-VANILLA-OFFICIAL.zip
+  ROM_URL: https://downloads.sourceforge.net/project/realme-c2/RealmeUI/Ozip/RealmeC2C53.ozip?ts=gAAAAABhoPnAnNaJNEuVYzJtA9S85TD4bl0z82FjqMf6JKQ_df-zwEyaiaHEA2KU-cCJYyAyV2UA1xne5eEL9YQeMsDLNI8L0w%3D%3D
