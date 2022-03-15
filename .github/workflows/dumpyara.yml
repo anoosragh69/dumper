@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://broken-sunset-4971.rehanalt501.workers.dev/0://crDroidAndroid-12.0-20220220-RMX1941-v8.2.zip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX3171_11_OTA_0190_all_6CL0F6Ae96Vg.ozip
