@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX3171_11_OTA_0190_all_6CL0F6Ae96Vg.ozip
+  ROM_URL: https://megamirrorsakura.iamrehan2064593.workers.dev/0:/CipherOS-3.2-EXODUS-cipher_RMX1941-20220410-1021-OFFICIAL-GAPPS.zip
