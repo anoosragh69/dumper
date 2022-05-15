@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://superior-mirror.index-cloud.workers.dev/0:/RMX3171GDPR_11_C.07_2022030418560000.7z
+  ROM_URL: https://rms01.realme.net/SW/realme%20service/realme%20Narzo%2020/206AF/RMX2193export_11_C.16_2022032517480000.zip
