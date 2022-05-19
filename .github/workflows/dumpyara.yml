@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://rms01.realme.net/SW/realme%20service/realme%20Narzo%2020/206AF/RMX2193export_11_C.16_2022032517480000.zip
+  ROM_URL: https://www.zaemon.workers.dev/0:/RMX3171export_11_C.08_2022050520010235.7z
