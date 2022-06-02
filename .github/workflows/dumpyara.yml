@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://www.zaemon.workers.dev/0:/RMX3171export_11_C.08_2022050520010235.7z
+  ROM_URL: https://sakura.rehan23.workers.dev/0:/RMX3151GDPR_11_A.44_2022051000110000.7z
