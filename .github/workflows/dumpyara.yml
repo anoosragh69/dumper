@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://rem.rehan23.workers.dev/0:/HANOIP_RETAIL_S2RI32.32_20_7_subsidy_DEFAULT_regulatory_DEFAULT_CFC.xml.7z
+  ROM_URL: https://mirror.sparrowisland.ga/0:/Bot%20Uploads/HANOIP_RETAIL_S2RI32.32_20_7_subsidy_DEFAULT_regulatory_DEFAULT_CFC.xml.7z
