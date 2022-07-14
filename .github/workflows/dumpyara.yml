@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://drive.google.com/uc?id=1I9CEufK84TZ2Yaw-Pd39mHD7yFFsHll3&export=download
+  ROM_URL: https://bot.walkingstatue08.workers.dev/0:/HANOIP_RETAIL_11_RRIS31.Q1-42-42-3-2_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
