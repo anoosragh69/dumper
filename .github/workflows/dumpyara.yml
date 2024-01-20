@@ -16,7 +16,7 @@ jobs:
        
        - name: Clone Dumpyara
          run: |
-                  git clone https://github.com/ok-ano0s/phoenix_firmware_dumper.git dumper
+                  git clone https://github.com/anoosragh69/phoenix_firmware_dumper.git dumper
 
        - name: Setting up and Running Dumper
          run: |
@@ -33,7 +33,7 @@ jobs:
               touch .tg_chat
               echo "@cArN4gEDumps" >> ".tg_chat"
               git config --global user.email "ok.ano0s6090@gmail.com"
-              git config --global user.name "ok-ano0s"
+              git config --global user.name "anoosragh69"
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
