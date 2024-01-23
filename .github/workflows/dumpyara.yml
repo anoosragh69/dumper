@@ -37,4 +37,4 @@ jobs:
               git config user.email
               sudo bash dumper.sh $ROM_URL
 env:
-  ROM_URL: https://mirrors.lolinet.com/firmware/motorola/hanoip/official/RETAIL/HANOIP_RETAIL_12_S2RI32.32-20-9-9-2_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip
+  ROM_URL: https://mega-drive.rehan1rr22.workers.dev/0:/lmodroid_hanoip-img-2.zip
